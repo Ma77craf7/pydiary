@@ -4,10 +4,10 @@ from tkinter import messagebox
 from datetime import date
 
 def graphinterface():
-    retry=messagebox.askretrycancel("", "You're a fucking stupid")
+    retry=messagebox.askretrycancel("", "This feature is under development")
     print(retry)
     while retry:
-        retry=messagebox.askretrycancel("", "You're a fucking stupid")
+        retry=messagebox.askretrycancel("", "This feature is under development")
 
 def clear():
     try:
